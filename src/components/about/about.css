@@ -1,0 +1,90 @@
+/*Sobre mim*/
+#about {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    margin-left: 10vw;
+    width: 86.40vw;
+    height: 31.25vw;
+}
+
+#about h1 {
+    margin-left: 2.60vw;
+    font-size: 3.33vw;
+    
+    font-weight: 600;
+
+}
+
+#timeLine {
+    margin-top: 4.53vw;
+    width: 100%;
+
+}
+
+#timeLine span {
+    font-size: 1.87vw;
+    font-weight: 600;
+    margin-right: 17.76vw;
+}
+
+#timeLine span:first-child {
+    margin-left: 7.03vw;
+}
+
+#timeLine span:last-child {
+    margin-right: 0px;
+}
+
+
+#elipseAndRow {
+    display: flex;
+}
+
+.elipse {
+
+    width: 1.66vw;
+    height: 1.66vw;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+
+}
+
+.elipse:first-child {
+    margin-left: 8vw;
+}
+
+.row {
+    margin-left: -0.10vw;
+    margin-top: 0.50vw;
+    background-color: white;
+    width: 20.7vw;
+    height: 0.62vw;
+}
+
+#textAbout {
+
+    display: flex;
+}
+
+#textAbout p {
+    font-size: 1.45vw;
+    font-weight: 600;
+    text-align: center;
+    width: 18.07vw;
+    margin-right: 4vw;
+}
+
+#textAbout p:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 470px) {
+    #about {
+        display: none;
+    }
+}
+@media screen and (min-width: 2561px) {
+    #about {
+        display: none;
+    }
+    }

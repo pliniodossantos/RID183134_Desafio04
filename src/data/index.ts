@@ -1,0 +1,1 @@
+export {default as dataCard} from './dataCard'

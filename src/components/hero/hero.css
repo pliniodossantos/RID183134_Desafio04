@@ -1,0 +1,48 @@
+#hero {
+    margin-top: 12.68rem;
+    margin-left: 10vw;
+    margin-bottom: 9.81rem;
+}
+
+#hero h1 {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+#hero h2 {
+    margin-top: 1rem;
+    margin-left: 3.62vw;
+    color: #BCBCBC;
+    font-size: 1.68rem;
+    font-weight: 600;
+    margin-bottom: 4.2rem;
+}
+
+#hero button {
+    border-radius: 5.18rem;
+    border: none;
+    margin-left: 6.81rem;
+    color: white;
+    font-weight: 600;
+    font-size: 1.31rem;
+    width: 17.5rem;
+    height: 5rem;
+    background-image: linear-gradient(270deg, #13ADC7 0%, #6978D1 70.67%, #945DD6 100%);
+}
+
+@media screen and (max-width: 1023px) {
+    #hero h2 {
+        margin-left: 0;
+    }
+
+    #hero button {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    #hero {
+        margin-top: 6rem;
+
+    }
+}

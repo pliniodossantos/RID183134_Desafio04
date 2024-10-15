@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0F1624;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+section,
+h1,
+h2,
+h3,
+a,
+p,
+span {
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}

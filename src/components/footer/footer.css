@@ -1,0 +1,108 @@
+/*footer*/
+footer {
+    background-color: #0F1624;
+    margin-left: 5vw;
+    margin-bottom: 7rem;
+    display: flex;
+}
+
+#contactsTxt {
+    display: flex;
+}
+
+#contactsTxt h2 {
+    font-size: 2.22vw;
+    font-weight: 600;
+}
+
+#contactsTxt h2:first-child {
+    margin-right: 5.93vw
+}
+
+#contactsTxt h2:last-child {
+    margin-right: 9.85vw;
+    width: 33.70vw;
+}
+
+
+#linkImg {
+    margin-top: 1.5rem;
+    text-align: right;
+
+}
+
+#linkImg img {
+    height: 3.5rem;
+}
+
+#linkImg a {
+    padding-right: 3.15vw;
+}
+
+#linkImg a:last-child {
+    padding-right: 0;
+}
+@media screen and (min-width: 1500px){
+    #contactsTxt h2 {
+        font-size: 2rem;
+        
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    br {
+        display: none;
+    }
+
+    footer {
+        margin-left: 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #contactsTxt {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        width: 100%;
+    }
+
+    #contactsTxt h2 {
+        padding-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+
+    #contactsTxt h2:first-child {
+        margin-right: 0;
+    }
+
+    #contactsTxt h2:last-child {
+        width: 100%;
+    }
+
+    #linkImg {
+        margin-top: 3rem;
+        text-align: center;
+
+    }
+
+    @media screen and (max-width: 470px) {
+        br {
+            display: inline;
+        }
+        footer{
+            margin-top: 3rem;
+        }
+        #contactsTxt h2 {
+            font-size: 1rem;
+        }
+    }
+
+
+}
+
+@media screen and (min-width: 2561px) {
+        footer{
+            margin-top: 100px;
+        }
+    }

@@ -1,0 +1,127 @@
+/*projects*/
+
+#projects {
+    margin-left: 10vw;
+    
+    
+}
+
+#projects h1 {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+#cardsProjects {
+    margin-left: 5.62vw;
+    margin-top: 5.81rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 97px 1vw;
+
+}
+
+.card {
+    border: solid 0.1px;
+    box-shadow: 0px 0px 12px #FFFFFF;
+    border-radius: 50px 0px;
+    width: 34.37rem;
+    height: 40rem;
+}
+
+.imgCard {
+    width: 31.25rem;
+    height: 16.62rem;
+    margin-top: 1.56rem;
+    margin-left: 1.56rem;
+}
+.imgCard img{
+    width: 31.25rem;
+    height: 16.62rem;
+}
+
+.card h2 {
+    font-size: 1.68rem;
+    font-weight: 600;
+    margin-top: 1.56rem;
+    margin-bottom: 3.37rem;
+    text-align: center;
+}
+
+.card p {
+    margin-left: 1.56rem;
+    font-weight: 600;
+    font-size: 1.31rem;
+    margin-right: 0.3rem;
+}
+
+.card button {
+    border-radius: 5.18rem;
+    margin-left: 1.56rem;
+    font-weight: 600;
+    border: none;
+    background-image: linear-gradient(270deg, #13ADC7 0%, #6978D1 70.67%, #945DD6 100%);
+    color: white;
+    width: 12.5rem;
+    height: 3.75rem;
+    font-size: 1.25rem;
+    margin-top: 1.56rem;
+}
+
+@media screen and (max-width: 1330px) {
+
+    #cardsProjects {
+        margin-left: 0;
+
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    #cardsProjects {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 80px;
+        margin-left: 10vw;
+        
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    .card {
+        border: solid 0.1px;
+        box-shadow: 0px 0px 12px #FFFFFF;
+        border-radius: 50px 0px;
+        width: 75vw;
+        height: 40rem;
+    }
+
+    .imgCard {
+        width: 67vw;
+        height: auto;
+        margin-top: 7vw;
+        margin-left: 4vw;
+    }
+
+    .imgCard img {
+        width: 67vw;
+        height: auto;
+    }
+
+    .card h2 {
+        margin-bottom: 1rem;
+    }
+    #cardsProjects{
+        margin-left: 5vw;
+    }
+}
+@media screen and (min-width: 2000px) {
+    #cardsProjects {
+        width: 2000px;
+        margin-left: 5.62vw;
+        margin-top: 5.81rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 97px 200px;
+    }
+    
+
+}
